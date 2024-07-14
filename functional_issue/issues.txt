@@ -1,0 +1,14 @@
+Signup Process:
+Users can signup with any data without proper format or validation.
+
+Checkout Process:
+Users can checkout products without being logged in.
+
+Form Validation:
+Lack of form validation in the checkout process.
+
+Shopping Cart:
+Users can proceed to checkout without having any products in the cart.
+
+Product Browsing:
+Switching to a different product category does not visually highlight the selected category.
