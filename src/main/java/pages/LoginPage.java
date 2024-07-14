@@ -8,6 +8,7 @@ public class LoginPage extends BasePage{
     private By passwordField = By.id("loginpassword");
     private By loginButton = By.xpath("//button[text()='Log in']");
     private By loginModalButton = By.id("login2");
+    private By logoutButton = By.id("logout2");
     private By userName = By.id("nameofuser");
 
     public void openLoginModal() {
@@ -36,9 +37,14 @@ public class LoginPage extends BasePage{
     }
 
     public void logout() {
+        click(logoutButton);
     }
 
     public void checkLogout() {
-
+        if(!isElementVisible(logoutButton)){
+            System.out.println("Logout Successfully");
+        }else {
+            System.out.println("Logout Failed");
+        }
     }
 }
