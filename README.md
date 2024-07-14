@@ -76,8 +76,8 @@ Automation/
 ## Setup Instructions
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/yourprojectname.git
-   cd yourprojectname
+   git clone https://github.com/Abhishek-Behera/automation.git
+   cd automation
    ```
 
 2. **Install project dependencies:**
